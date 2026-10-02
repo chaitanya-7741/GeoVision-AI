@@ -3,7 +3,7 @@ import "./App.css";
 
 const API_URL =
   localStorage.getItem("geovision_api_url") ||
-  "http://127.0.0.1:8000";
+  "https://geovision-ai-backend.onrender.com";
 
 function App() {
   const fileInputRef = useRef(null);
